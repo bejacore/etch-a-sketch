@@ -10,3 +10,19 @@ html {
     padding: 0;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    height: 800px;
+    width: 800px;
+    flex-wrap: wrap;
+}
+
+.square {
+    border: 1px solid black;
+    flex: auto;
+}
