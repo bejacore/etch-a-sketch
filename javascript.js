@@ -64,7 +64,3 @@ button.addEventListener('click', () => {
     getGrid(numSideSquares);
     fillSquare();
 });
-
-
-
-

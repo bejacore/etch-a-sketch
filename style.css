@@ -15,6 +15,26 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c0bfc7;
+}
+
+h1 {
+    font-size: 60px;
+    padding: 20px 0 0 0;
+}
+
+button {
+  background-color: #a7a6ae;
+  border-radius: 8px;
+  border-width: 1px;
+  border-color: #d5d4dd;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 12px;
 }
 
 .container {
@@ -22,9 +42,24 @@ body {
     height: 800px;
     width: 800px;
     flex-wrap: wrap;
+    background-color: #e7e6ee;
 }
 
 .square {
-    border: 1px solid black;
+    border: 1px solid #d5d4dd;
     flex: auto;
+}
+
+.footer {
+    background-color: #adacb5;
+    padding: 16px 0;
+    align-self: stretch;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h1,
+button,
+.footer {
+    color: #faf9ff;
 }
