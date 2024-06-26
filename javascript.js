@@ -41,9 +41,17 @@ function fillSquare() {
     const squares = document.querySelectorAll('.square');
     squares.forEach(square => {
         square.addEventListener('mouseover', () => {
-            square.style.backgroundColor = 'black';
+            square.style.backgroundColor = getRandomColor();
         });
     });
+}
+
+function getRandomColor() {
+    let red = Math.floor(Math.random() * 256);
+    let green = Math.floor(Math.random() * 256);
+    let blue = Math.floor(Math.random() * 256);
+
+    return `rgb(${red}, ${green}, ${blue})`;
 }
 
 getGrid();
